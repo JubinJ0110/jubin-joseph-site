@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/jubin-joseph-site",
     "ignore": [
       "firebase.json",
       "**/.*",
