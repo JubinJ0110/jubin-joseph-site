@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MarqueeDemo = MarqueeDemo;
-//import { Marquee } from "@/components/magicui/marquee";
+const marquee_1 = require("@/components/magicui/marquee");
 const reviews = [
     {
         name: "Jack",
@@ -76,7 +76,7 @@ function MarqueeDemo() {
         { firstRow, : .map((review) => key = { review, : .username }, Object.assign({}, review) /  >
             ) }
         < /Marquee>
-        < Marquee;
+        < marquee_1.Marquee;
     reverse;
     pauseOnHover;
     className = "[--duration:20s]" >
