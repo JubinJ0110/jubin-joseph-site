@@ -1,5 +1,7 @@
 import { motion } from "motion/react";
 import { ArrowUpRight, Database, Braces, BarChart3, Cpu, Palette, Code, LayoutGrid } from "lucide-react";
+import diabeto from "./images/diabeto.png";
+
 
 export default function Projects() {
   return (
@@ -26,7 +28,7 @@ export default function Projects() {
               <img 
                 alt="Data visualization dashboard" 
                 className="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity" 
-                src="https://picsum.photos/seed/dashboard/1200/800"
+                src={diabeto}
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent"></div>
