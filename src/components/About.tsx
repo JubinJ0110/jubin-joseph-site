@@ -47,7 +47,7 @@ export default function About() {
             whileHover={{ scale: 1.02 }}
             className="p-6 rounded-lg bg-surface-container-low border border-outline-variant/10"
           >
-            <h3 className="font-headline font-bold text-xl text-primary mb-2">50+ Projects</h3>
+            <h3 className="font-headline font-bold text-xl text-primary mb-2">Muliple SAS Projects</h3>
             <p className="text-on-surface-variant">delivered successfully</p>
           </motion.div>
           
@@ -55,8 +55,8 @@ export default function About() {
             whileHover={{ scale: 1.02 }}
             className="p-6 rounded-lg bg-surface-container-low border border-outline-variant/10"
           >
-            <h3 className="font-headline font-bold text-xl text-primary mb-2">Global</h3>
-            <p className="text-on-surface-variant">clientele across industries</p>
+            <h3 className="font-headline font-bold text-xl text-primary mb-2">Leadership Experience</h3>
+            <p className="text-on-surface-variant">from heading multiple organizations</p>
           </motion.div>
         </div>
       </motion.div>

@@ -11,7 +11,7 @@ export default function Projects() {
               Selected <span className="text-primary">Works.</span>
             </h2>
             <p className="text-on-surface-variant">
-              A collection of open-source tools and proprietary architectures designed for performance and insight.
+              A curated showcase of projects that blend data science and software engineering to drive real-world impact.
             </p>
           </div>
         </div>
@@ -100,7 +100,6 @@ export default function Projects() {
             className="md:col-span-2 lg:col-span-2 glass-card rounded-xl overflow-hidden group transition-all flex flex-col md:flex-row"
           >
             <div className="md:w-1/2 p-8 space-y-6">
-              <span className="px-2 py-1 bg-primary/10 text-primary text-[10px] rounded font-bold tracking-widest uppercase">Featured Product</span>
               <h3 className="text-3xl font-headline font-bold">Trawler</h3>
               <p className="text-on-surface-variant text-sm leading-relaxed">
                 Collaborated with the DataSAIL team to build a web application that mines Reddit comments for ticker mentions to forecast market trends.

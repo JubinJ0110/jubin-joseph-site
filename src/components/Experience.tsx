@@ -68,9 +68,6 @@ export default function Experience() {
             <h2 className="font-headline text-4xl font-extrabold tracking-tighter mb-6">
               Work <br/><span className="text-secondary">History.</span>
             </h2>
-            <p className="text-on-surface-variant leading-relaxed">
-              A dual-threat approach combining robust software engineering foundations with advanced statistical modeling.
-            </p>
           </div>
           
           <div className="lg:col-span-8 space-y-12">

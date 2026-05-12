@@ -28,7 +28,7 @@ export default function Skills() {
       <div className="absolute inset-0 studio-light-2 opacity-50 pointer-events-none"></div>
       <div className="max-w-7xl mx-auto relative z-10">
         <h2 className="font-headline text-4xl font-extrabold tracking-tighter mb-16 text-center">
-          The <span className="text-secondary">Stack.</span>
+          My <span className="text-secondary">Skills.</span>
         </h2>
         
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
