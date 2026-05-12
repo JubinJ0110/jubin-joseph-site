@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Manrope:wght@500;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-background: #131313;
+  --color-surface: #131313;
+  --color-surface-container-low: #1b1b1b;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353535;
+  --color-on-surface: #e2e2e2;
+  --color-on-surface-variant: #c5c4db;
+  --color-primary: #bec2ff;
+  --color-primary-container: #0000ff;
+  --color-secondary: #ffaaf3;
+  --color-secondary-container: #810181;
+  --color-outline-variant: #454558;
+}
+
+@layer utilities {
+  .studio-light-1 {
+    background: radial-gradient(circle at 20% 30%, rgba(0, 0, 255, 0.15) 0%, transparent 50%);
+  }
+  .studio-light-2 {
+    background: radial-gradient(circle at 80% 70%, rgba(129, 1, 129, 0.1) 0%, transparent 50%);
+  }
+  .glass-card {
+    background: rgba(53, 53, 53, 0.4);
+    backdrop-filter: blur(24px);
+  }
+  .glass-nav {
+    background: rgba(19, 19, 19, 0.6);
+    backdrop-filter: blur(20px);
+  }
+}
+
+body {
+  @apply bg-background text-on-surface font-sans selection:bg-primary-container selection:text-white;
+}
